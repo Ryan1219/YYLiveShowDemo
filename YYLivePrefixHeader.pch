@@ -1,0 +1,62 @@
+//
+//  YYLivePrefixHeader.pch
+//  YYLiveDemo
+//
+//  Created by Ryan on 2017/6/1.
+//  Copyright © 2017年 Ryan. All rights reserved.
+//
+
+#ifndef YYLivePrefixHeader_pch
+#define YYLivePrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//MARK:----屏幕比例相关----
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define Screenheight [UIScreen mainScreen].bounds.size.height
+
+//MARK:----颜色----
+#define YYColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+// define this constant if you want to use Masony without the 'mas_' prefix
+#define MAS_SHORTHAND
+// define this constant if you want to enable auto_boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#import "AFNetworking.h"
+
+#import <UIImageView+WebCache.h>
+#import "UIButton+WebCache.h"
+
+#import "MJExtension.h"
+
+#endif /* YYLivePrefixHeader_pch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+1,直播相关的类
+2，缺少ijkplayer静态库，需要自己制作
+3，添加依赖库 
+    1,AudioToolBox.framework
+    2,AVFoundation.framework
+    3,CoreMedia.framework
+    4,CoreVideo.framework
+    5,MediaPlayer.framework
+    6,MobileCoreServices.framework
+    7,OpenGLES.framework
+    8,VideoToolbox.framework
+    9,libbz2.tbd
+    10,libz.tbd
